@@ -1,1 +1,3 @@
 # MiniGame-JavaScript
+
+The game sets initial scores and states, hides the dice image, and sets the active player. It resets the game when the "New Game" button is clicked. When rolling the dice, it generates a random dice roll, displays the dice image corresponding to the roll, adds the roll to the current score if the dice roll is not 1, and switches to the next player if the dice roll is 1. Holding the score adds the current score to the active player's total score, checks if the total score is 100 or more to declare a winner, and switches to the next player if there is no winner. Switching players resets the current score and toggles the active player.
